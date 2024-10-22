@@ -1,0 +1,199 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#header{
+    height: 15vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-around;
+}
+#logo{
+    height: 70%;
+    margin: 10px;
+}
+#logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.text{
+    /* margin:20px; */
+    color: blueviolet;
+    display: flex;
+}
+.text:hover{
+    /* margin:20px; */
+    color:darkblue;
+    display: flex;
+}
+#contactdetails{
+    text-align: center;
+    /* margin-left: 30px; */
+    font-weight: lighter;
+    color: rgb(46, 48, 49);
+}
+.icon{
+    /* margin-left: 20px; */
+    padding: 8px;
+    border-radius: 50%;
+}
+.icon:hover{
+    background-color: lightblue;
+}
+#login{
+    /* margin-left: 20px; */
+    display: flex;
+    border-radius: 50px;
+    padding: 10px;
+}
+#login:hover{
+    background-color: lightblue;
+}
+#try{
+    background-color: rgb(55, 167, 55);
+    padding: 8px 15px;
+    color: white;
+}
+#try:hover{
+    background-color: darkgreen;
+}
+#fakeheader{
+    height: 15vh;
+    width: 100%;
+    background-color: yellow;
+}
+#page1{
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(192, 229, 229);
+}
+#strip{
+    height: 8%;
+    width: 100%;
+    background-color: rgb(2, 2, 56);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#strip u{
+    margin-left: 15px;
+}
+#content{
+    height: 76%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Box1{
+    height: 100%;
+    width: 50%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#Box1 h1{
+    font-weight: 600;
+    color: rgb(2, 2, 37);
+    font-size: 60px;
+    margin: 40px 10px;
+}
+#Box1 p{
+    font-size: x-large;
+    margin: 30px 10px;
+
+}
+#Box2{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(159, 216, 159);
+    margin: 10px;
+}
+#Box2 img{
+    object-fit: cover;
+}
+#footer{
+    height: 16%;
+    width: 100%;
+    background-color: rgb(227, 233, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+#footer h1{
+    font-weight: 300;
+}
+#buttons{
+    display: flex;
+
+}
+#button1{
+    text-align: center;
+    margin: 10px;
+    width: 25%;
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(73, 73, 231);
+}
+#button1:hover{
+    background-color: darkblue;
+}
+#button2{
+    text-align: center;
+    margin: 10px;
+    width: 25%;
+    padding: 10px 20px;
+    color: rgb(5, 76, 100);
+    border: 1px solid rgb(18, 158, 204);
+}
+#button2:hover{
+    background-color:lightblue;
+    color: darkblue;
+    border-color: darkblue;
+}
+#page2{
+    height: 85vh;
+    width: 100%;
+    background-color: rgb(192, 147, 147);
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* ye hai pahla tareeka  */
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 300px;
+    width: 230px;
+    border:1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#card1{
+    z-index: 5;
+    transform: translate(-50%, -50%);
+    background-color: yellow;
+
+}
